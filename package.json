@@ -1,0 +1,16 @@
+{
+	"name": "vlquery-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc ; npx vlquery compile",
+		"start": "node dist/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^14.11.8",
+		"vlquery": "^1.8.2"
+	}
+}
